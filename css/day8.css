@@ -123,3 +123,63 @@ a:hover{
 .showCVButton:hover{
     background:liner-gradient(white,rgb(215,215,215));
 }
+
+/* services section*/
+.services{
+    margin:5rem;
+    /*padding:30px;*/
+    
+}
+.servicetext{
+    text-align: center;
+    text-transform:uppercase;
+}
+.textsubheading{
+    color:var(--primaryAccentColor);
+    letter-spacing: 0.4rem;
+    font-size: 1.25rem;
+}
+.textheading{
+     font-size: 2.5rem;
+     font-weight:bold;
+}
+.servicecards{
+    display:flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+.servicecard{
+    background-color: aliceblue;
+    border:2px solid rgb(88, 141, 201);
+    border-radius: 2px;
+    filter:drop-shadow(1px 1px 2px #aaaaaa);
+    margin:15px;
+    padding:40px;
+}
+.servicecard:hover{
+    background-color: aliceblue;
+    filter:drop-shadow(3px 3px 8px grey);
+}
+.serviceicondiv{
+    /* background-color:#879aa2; */
+    padding:30px;
+    display:inline-block;
+    margin-bottom:20px ;
+}
+.serviceicon{
+    font-size: 5rem;
+    background-color: #537ce7;
+    margin-bottom:-10px;
+}
+.servicetitle{
+    font-size: 2;
+    margin:20px 0px;
+}
+.servicefeature{
+    font-size: 1rem;
+    margin:10px 0px;
+}
+.servicefeatureicon{
+    font-size: 0.75rem;
+    color:black;
+}
